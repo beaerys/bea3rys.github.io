@@ -1,0 +1,26 @@
+#minibanner{background-color: midnightblue;
+}
+
+div{min-height: 1000pt;
+;}
+
+p{width: 400pt;}
+
+h1{color: blueviolet;
+    width: 280pt;
+}
+
+#par-1{width: 300pt;}
+
+#cabecera{background-color:antiquewhite ;
+    height: 500pt;
+    padding: 100pt
+}
+
+#centro{
+    padding: 100pt;
+}
+
+#pie{background-color: antiquewhite;
+    height: 500pt;} 
+
