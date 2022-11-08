@@ -1,0 +1,13 @@
+header {
+    background-color: aqua;
+}
+
+section {
+    background-color: beige;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
