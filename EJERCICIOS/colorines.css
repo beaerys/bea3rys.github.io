@@ -1,6 +1,26 @@
-body{background-color: black;}
-
-h1{color: lightpink;
+body{
+    background-image: url(images_menu/design-space-paper-textured-background.jpg);
 }
 
-a{color: whitesmoke;}
+h1{color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 70px;
+}
+
+img{
+    width: 150px;
+    padding: 80px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+a{
+    color: black;
+}
