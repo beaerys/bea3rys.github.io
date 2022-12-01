@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(23, 23, 23);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div{
+    color: rgb(40, 40, 40);
+    background-color: whitesmoke;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+@font-face {
+    font-family: Nerko;
+    src: url(../EJ04_CastingTipografico/fonts/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Titan;
+    src: url(../EJ04_CastingTipografico/fonts/TitanOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cuprum;
+    src: url(../EJ04_CastingTipografico/fonts/Cuprum-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../EJ04_CastingTipografico/fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poiret;
+    src: url(../EJ04_CastingTipografico/fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Handlee;
+    src: url(../EJ04_CastingTipografico/fonts/Handlee-Regular.ttf);
+}
+
+#a{
+    font-family: Titan;
+}
+
+#b{
+    font-family: Nerko;
+}
+
+#c{
+    font-family: Cuprum;
+}
+
+#d{
+    font-family: Lobster;
+}
+
+#e{
+    font-family: Poiret;
+}
+
+#f{
+    font-family: Handlee;
+}
