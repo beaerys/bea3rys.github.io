@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    width: 95%;
+}
+
+header{
+    background-color: aqua;
+    height: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header img{
+    width: 200px;
+}
+
+main{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 3000px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    background-color: aqua;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
