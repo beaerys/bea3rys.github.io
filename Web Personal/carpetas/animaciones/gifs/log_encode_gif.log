@@ -1,0 +1,271 @@
+ffmpeg version 4.3.1-2020-11-19-essentials_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev5, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Usuario/AppData/Local/Temp/KritaFFmpegProgress.oJXyls'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/AAAAAAAAAAAAAA.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Usuario/AppData/Local/Temp/KritaFFmpegProgress.oJXyls.
+[file @ 000001ea07c3e500] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame%04d.png.
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0000.png' for reading
+[file @ 000001ea07c83040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07c8b200] Statistics: 293142 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0001.png' for reading
+[file @ 000001ea07c89600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07c89740] Statistics: 293142 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0002.png' for reading
+[file @ 000001ea08877c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 293142 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0003.png' for reading
+[file @ 000001ea07ce02c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 358775 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0004.png' for reading
+[file @ 000001ea07ce0480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 358775 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0005.png' for reading
+[file @ 000001ea07ce0640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 358775 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0006.png' for reading
+[file @ 000001ea07ce0800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 274799 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0007.png' for reading
+[file @ 000001ea07ce0980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 274799 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0008.png' for reading
+[file @ 000001ea07ce0b40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 274799 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0009.png' for reading
+[file @ 000001ea07ce0c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 386634 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0010.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 386634 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0011.png' for reading
+[file @ 000001ea07ce0e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 386634 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0012.png' for reading
+[file @ 000001ea07c8ae40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 444574 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0013.png' for reading
+[file @ 000001ea07c8ae40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 444574 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0014.png' for reading
+[file @ 000001ea07c8ae40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0080] Statistics: 444574 bytes read, 0 seeks
+[image2 @ 000001ea07c7e880] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame%04d.png':
+  Duration: 00:00:01.52, start: 0.000000, bitrate: N/A
+    Stream #0:0, 15, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 3937:3937 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png.
+[NULL @ 000001ea07c820c0] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png' for reading
+[file @ 000001ea07c8b100] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 000001ea07c820c0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001ea07c820c0] Before avformat_find_stream_info() pos: 0 bytes read:1013 seeks:0 nb_streams:1
+[png_pipe @ 000001ea07c820c0] After avformat_find_stream_info() pos: 1013 bytes read:1013 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/AAAAAAAAAAAAAA.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/AAAAAAAAAAAAAA.gif.
+[file @ 000001ea07c848c0] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 96 times
+[image2 @ 000001ea07c7e880] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0015.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 383196 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0016.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 383196 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0017.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 383196 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0018.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 517666 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0019.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 517666 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0020.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 517666 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0021.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08877ac0] Statistics: 507322 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1 times
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001ea08dc4100] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:3937/3937
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001ea08dc4500] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 000001ea08dc4400] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001ea08dc3200] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ea08dc2f00] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001ea08dc4300] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001ea08dc2f00] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001ea07c83900] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001ea08de5140] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001ea08dc3200] w:1920 h:1080 fmt:rgba sar:3937/3937 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001ea08e10340] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001ea08dc4300] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001ea08dc2f00] [framesync @ 000001ea0b964048] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 000001ea08dc2f00] [framesync @ 000001ea0b964048] Sync level 2
+Output #0, gif, to 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/AAAAAAAAAAAAAA.gif':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1920x1080 [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 gif
+Clipping frame in rate conversion by 0.000008
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0022.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08a2ee80] Statistics: 507322 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0023.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea08d69b00] Statistics: 507322 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0024.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 452049 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1822x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0025.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 452049 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0026.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 452049 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0027.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 372256 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1822x1080 image at pos (0;0) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0028.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 372256 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0029.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 372256 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0030.png' for reading
+[file @ 000001ea07ce0dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 936x1080 image at pos (281;0) [area:1920x1080]
+frame=   10 fps=0.0 q=-0.0 size=     256kB time=00:00:00.39 bitrate=5377.3kbits/s speed=0.725x    [image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0031.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0032.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0033.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1154x1080 image at pos (125;0) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0034.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0035.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0036.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1263x1080 image at pos (125;0) [area:1920x1080]
+[image2 @ 000001ea07c7e880] Opening 'C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame0037.png' for reading
+[file @ 000001ea07ce0d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001ea07ce0200] Statistics: 409446 bytes read, 0 seeks
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 000001ea08a0ca40] 1404x1080 image at pos (181;0) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+frame=   20 fps= 19 q=-0.0 size=     768kB time=00:00:00.80 bitrate=7864.3kbits/s speed=0.762x    [gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1471x1080 image at pos (365;0) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 000001ea08a0ca40] 1369x1012 image at pos (467;68) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 000001ea08a0ca40] 1124x979 image at pos (587;101) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 1 times
+[gif @ 000001ea08a0ca40] 904x986 image at pos (589;94) [area:1920x1080]
+[gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+frame=   32 fps= 20 q=-0.0 size=    1536kB time=00:00:01.30 bitrate=9679.2kbits/s speed=0.816x    [gif @ 000001ea08a0ca40] 1x1 image at pos (1919;1079) [area:1920x1080]
+    Last message repeated 5 times
+[Parsed_paletteuse_0 @ 000001ea08dc2f00] [framesync @ 000001ea0b964048] Sync level 0
+[out_0_0 @ 000001ea08dc4000] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   38 fps= 20 q=-0.0 Lsize=    1634kB time=00:00:01.55 bitrate=8637.4kbits/s speed=0.822x    
+[AVIOContext @ 000001ea07c7e640] Statistics: 0 seeks, 4 writeouts
+video:1634kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.001195%
+Input file #0 (C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/frame%04d.png):
+  Input stream #0:0 (video): 38 packets read (15246807 bytes); 38 frames decoded; 
+  Total: 38 packets (15246807 bytes) demuxed
+Input file #1 (C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/palette.png):
+  Input stream #1:0 (video): 1 packets read (1013 bytes); 1 frames decoded; 
+  Total: 1 packets (1013 bytes) demuxed
+Output file #0 (C:/Users/Usuario/Desktop/EASDA/TERCER CURSO 2022-2023/Diseño Web/GitHub/bea3rys.github.io/Web Personal/carpetas/animaciones/gifs/AAAAAAAAAAAAAA.gif):
+  Output stream #0:0 (video): 38 frames encoded; 38 packets muxed (1673476 bytes); 
+  Total: 38 packets (1673476 bytes) muxed
+39 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001ea07c84a00] Statistics: 0 seeks, 7 writeouts
+[AVIOContext @ 000001ea07c826c0] Statistics: 1013 bytes read, 0 seeks

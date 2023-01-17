@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 400px;
+    padding: 40px;
+}
+
+a{
+    border: 10px;
+    border-color: whitesmoke;
+}

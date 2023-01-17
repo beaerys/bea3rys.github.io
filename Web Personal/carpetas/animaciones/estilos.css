@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(40, 40, 40);
+    width: 100vw;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+main{
+    /* display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap; */
+    position: relative;
+}
+
+main img{
+    width: 600px;
+    padding: 20px;
+}
+
+.uno{
+    position:absolute;
+    left: 30px;
+    position: relative;
+}
+
+.bloque{
+    opacity: 0.4;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    left: 540px;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.dos{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    position: relative;
+}
+
+.tres{
+    position:absolute;
+    top: -620px;
+    left: 700px;
+    position: relative;
+}
+
+.cuatro{
+    position:absolute;
+    top: -600px;
+    left: 700px;
+    position: relative;
+}
+
