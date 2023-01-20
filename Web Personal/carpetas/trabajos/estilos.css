@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+main{
+    width: 500px;
+}
+
+img{
+    width: 200px;
+}
+
+.uno{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -6,6 +6,7 @@ body{
 h1{
     color: whitesmoke;
     text-align: center;
+    font-family: Roc;
 }
 
 main{
@@ -63,3 +64,7 @@ main img{
     position: relative;
 }
 
+@font-face{
+    font-family: Roc;
+    src: url(..//skeetchbook/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);
+}

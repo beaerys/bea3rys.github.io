@@ -1,20 +1,35 @@
 body{
     background-color: rgb(40, 40, 40);
+    height: auto;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Roc;
+}
+
+section{
     display: flex;
     justify-items: center;
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 img{
     width: 400px;
     padding: 40px;
+    border: none;
 }
 
 a{
-    border: 10px;
-    border-color: whitesmoke;
+    border: none;
+}
+
+@font-face{
+    font-family: Roc;
+    src: url(..//skeetchbook/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);
 }

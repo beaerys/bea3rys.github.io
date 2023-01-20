@@ -1,36 +1,48 @@
 body{
     background-color:  rgb(40, 40, 40);
+    background-attachment: fixed;
+    background-position: center;
     width: 95%;
 }
 
-header{
-    background-color: white;
-    height: 500px;
+section{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2800px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+header{
+    /* background-color: rgb(183, 171, 171); */
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.banner{
-    background-color:  rgb(40, 40, 40);
-    height: 200px;
-    width: 100%;
-}
-
 header img{
-    width: 500px;
-    margin-top: 30px;
+    width: 370px;
+    margin-top: -10px;
 }
-
+/* 
 h1{
-    color:  rgb(40, 40, 40);
+    color:  white;
+    border: 20px;
+    border-color: blue;
+    border-radius: 20px;
     font-family: Roc;
-    margin-top: -30px;
-}
+    margin-top: -150px;
+    font-size: 50px;
+} */
 
 header a{
     color:  rgb(40, 40, 40);
@@ -39,9 +51,9 @@ header a{
 }
 
 main{
-    background-color: white;
+    /* background-color: white; */
     width: 90%;
-    height: 2500px;
+    height: 2300px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -49,46 +61,55 @@ main{
 }
 
 main div{
-    background-color: blanchedalmond;
-    width: 400px;
+    /* background-color: blanchedalmond; */
+    width: 500px;
     height: 400px;
     margin-top: 50px;
 }
 
 main img{
-    width: 500px;
+    width: 400px;    
 }
+
 .uno{
+    /* background-color: rgb(173, 173, 161); */
     position: absolute;
-    top: 0;
-    left: 50px;
+    top: 80px;
+    left: 100px;
+}
+
+.holap{
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    height: 300px;
+    top: 100px;
 }
 
 .dos{
-    width: 500px;
-    height: 400px;
     position: absolute;
     top: 500px;
     right: 50px;
 }
 
 .tres{
+    /* background-color: rgb(173, 173, 161); */
     position: absolute;
-    top: 1000px;
+    top: 850px;
     left: 50px;
 }
 
 .cuatro{
     position: absolute;
-    top: 1500px;
+    top: 1200px;
     right: 50px;
 }
 
 .container{
-    width: 500px;
+    width: 350px;
     height: 300px;
     position: absolute;
-    top: 2000px;
+    top: 1700px;
     left: 400px;
 }
 
@@ -105,7 +126,7 @@ main img{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -124,6 +145,7 @@ main img{
     background-color: rgb(40, 40, 40);
     color: white;
     font-size: 16px;
+    font-family: Roc;
     padding: 16px 32px;
     height: 20px;
     width: 30%;
@@ -132,13 +154,13 @@ main img{
     margin-top: 150px;
   }
 
-  .link{
+.link{
     color: white;
     text-decoration: none;
-  }
+}
 
 footer{
-    background-color:  rgb(198, 46, 46);
+    /* background-color:  rgb(198, 46, 46); */
     height: 100px;
     width: 90%;
     margin-left: auto;
@@ -150,10 +172,11 @@ footer{
 }
 
 footer a{
-    color: white   ;
+    color: white;
+    padding: 100px;
 }
 
 @font-face{
     font-family: Roc;
-    src: url(fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);
+    src: url(..//skeetchbook/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);
 }
