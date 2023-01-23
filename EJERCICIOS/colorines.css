@@ -31,25 +31,95 @@ img{
     padding: 10px;
 }
 
+div{
+    width: 300px;
+    height: 50px;
+    align-items: center;
+}
+
 section{
-    width: 80px;
+    width: 200px;
     margin: auto;
     margin-top: 20px;
     align-items: center;
     height: auto;
-    display: flex;
+
+    position: relative;
+    /* display: flex;
     flex-direction: column;
     justify-items: center;
+     */
+}
+
+.texto1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.uno{
+    position: absolute;
+    top: -13px;
+    left: -150px;
+}
+
+.texto2{
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+
+.dos{
+    position: absolute;
+    top: 77px;
+    left: -150px;
+}
+
+.texto3{
+    position: absolute;
+    top: 218px;
+    left: 40px;
+}
+
+.tres{
+    position: absolute;
+    top: 166px;
+    left: -150px;
+}
+
+.texto4{
+    position: absolute;
+    top: 308px;
+    left: 40px;
+}
+
+.cuatro{
+    position: absolute;
+    top: 257px;
+    left: -150px;
+}
+
+.texto5{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.cinco{
+    position: absolute;
+    top: 347px;
+    left: -150px;
 }
 
 a{
     color: black;
+    text-decoration: none;
     margin-top: 0px;
     display: inline-block;
+    font-family: Goth;
 }
 
-p{    
-    background-image: url(images_menu/rectangulo.png);
-    height: 60px;
-    width: 40px;   
+@font-face{
+    font-family: Goth;
+    src: url(fonts/bgothm.ttf);
 }

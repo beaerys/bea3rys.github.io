@@ -29,6 +29,11 @@ a{
     border: none;
 }
 
+.lb-image{
+    border: none;
+    direction: none;
+}
+
 @font-face{
     font-family: Roc;
     src: url(..//skeetchbook/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);

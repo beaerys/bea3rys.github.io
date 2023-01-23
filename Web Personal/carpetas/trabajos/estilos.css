@@ -1,16 +1,69 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(40, 40, 40);
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Roc;
 }
 
 main{
-    width: 500px;
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: auto;
 }
 
-img{
-    width: 200px;
+main img{
+    width: 400px;
+    padding: 20px;
 }
 
 .uno{
+    position:absolute;
+    top: 600px;
+    left: 700px;
+    height: auto;
+}
+
+.dos{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+}
+/* 
+.tres{
+    position:absolute;
+    top: -620px;
+    left: 700px;
+    position: relative;
+} */
+
+.cuatro{
+    position:absolute;
+    top: -600px;
+    left: 700px;
+}
+
+.cinco{
+    position:absolute;
+    top: 0px;
+    right: 750px;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+@font-face{
+    font-family: Roc;
+    src: url(..//skeetchbook/fonts/Fontspring-DEMO-rocgroteskextrawide-medium.otf);
 }
