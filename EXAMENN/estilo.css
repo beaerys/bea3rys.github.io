@@ -1,0 +1,129 @@
+body{
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    /* position: fixed; */
+}
+
+header section{
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+}
+
+header img{
+    width: 25%;
+}
+
+.der{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header div{
+    color: #1d4370;
+    margin-left: 30px;
+    font-size: 9pt;
+}
+
+.der :hover{
+    text-decoration: underline;
+    color: #1d4370;
+}
+
+main{
+    padding: 20px;
+    align-items: center;
+    margin-top: 50px;
+    height: 1400px;
+}
+
+main section{
+    position: relative;
+}
+
+h1{
+    color: #1d4370 ;
+    font-size: 25pt;
+    margin-left: 120px;
+}
+
+.uno{
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+
+}
+
+.uno img{
+    width: 600px;
+}
+
+.dos{
+    position: absolute;
+    top: 70px;
+    left: 750px;
+}
+
+.dos p{
+    width: 600px;
+}
+
+/* .botones{
+    border-radius: 20cm;
+} */
+
+.tres{
+    position: relative;
+    top: 650px;
+    left: 300px;
+}
+
+.tres img{
+    width: 900px;
+}
+
+footer{
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 18pt;
+    color: #1d4370;
+}
+
+footer section{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+footer div{
+    /* background-color: aqua; */
+    width: 300px;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+footer img{
+    width: 300px;
+    
+}
+
+
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Medium.ttf);
+}
